@@ -16,7 +16,8 @@ header {
     justify-content: center;
 }
 h1 {
-    padding-top: 1.5rem;
+    padding-top: 1.25rem;
+    font-size: 2rem;
 
 }
 h2 {
@@ -25,28 +26,62 @@ h2 {
     color: darkorange;
     text-align: center;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 h3 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     text-align: center;
     color: white;
     height: 3rem;
-    /* font-size: 1rem; */
-    /* margin: 0; */
-    /* width: 100%; */
+    font-size: 1.15rem;
+    padding-top: .85rem;
 }
 #user-pick {
     background-color: darkolivegreen;
-    /* margin: 0rem; */
-    width: 100%;
+    float: left;
+    width: 50%;
 }
 #comp-pick {
     background-color: darkred;
-    /* margin: 0rem; */
-    width: 100%;
-}
-
-/* .col-xs-6 {
+    float: left;
     width: 50%;
-} */
+}
+#wins {
+    width: 100%;
+    text-align: center;
+    height: 3rem;
+    background-color: rgb(112, 112, 112);
+    color: darkorange;
+    border: white solid 3px;
+    justify-content: center;
+    float: left;
+    font-size: 1.5rem;
+    padding-top: .5rem;
+    margin: 0rem;
+}
+#losses {
+    width: 100%;
+    text-align: center;
+    height: 3rem;
+    background-color: rgb(112, 112, 112);
+    color: darkorange;
+    border: white solid 3px;
+    justify-content: center;
+    float: left;
+    font-size: 1.5rem;
+    padding-top: .5rem;
+    margin: 0rem;
+}
+#ties {
+    width: 100%;
+    text-align: center;
+    height: 3rem;
+    background-color: rgb(112, 112, 112);
+    color: darkorange;
+    border: white solid 3px;
+    justify-content: center;
+    float: left;
+    font-size: 1.5rem;
+    padding-top: .5rem;
+    margin: 0rem;
+}

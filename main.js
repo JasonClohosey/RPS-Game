@@ -28,7 +28,7 @@ if ((userPick === "r") || (userPick === "p") || (userPick === "s")){
         losses++;
     }
     userPickText.innerHTML = "You chose: " + userPick;
-    compPickText.innerHTML = "The computer chose " + compPick;
+    compPickText.innerHTML = "Computer chose: " + compPick;
     winsText.innerHTML = "Wins: " + wins;
     lossesText.innerHTML = "Losses: " + losses;
     tiesText.innerHTML = "Ties: " + ties;
