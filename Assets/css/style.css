@@ -1,3 +1,52 @@
-body {
-    background-color: aquamarine;
+* {
+    box-sizing: border-box;
 }
+
+body {
+    background-color: black;
+    color: white;
+}
+header {
+    background-color: rgb(112, 112, 112);
+    color: darkorange;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    height: 5rem;
+    justify-content: center;
+}
+h1 {
+    padding-top: 1.5rem;
+
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    color: darkorange;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: white;
+    height: 3rem;
+    /* font-size: 1rem; */
+    /* margin: 0; */
+    /* width: 100%; */
+}
+#user-pick {
+    background-color: darkolivegreen;
+    /* margin: 0rem; */
+    width: 100%;
+}
+#comp-pick {
+    background-color: darkred;
+    /* margin: 0rem; */
+    width: 100%;
+}
+
+/* .col-xs-6 {
+    width: 50%;
+} */
